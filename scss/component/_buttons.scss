@@ -1,0 +1,27 @@
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 0.8rem;
+  padding: 0.4rem 1.6rem;
+}
+.reg-btn {
+  color: $light-color;
+  background-color: $secondary-color;
+}
+.hero-btn {
+  background-color: $tertiary-color;
+  color: $light-color;
+}
+.read-more-btn,
+.download-btn,
+.form-btn {
+  font-weight: 600;
+  background-color: $light-blue;
+  color: $secondary-color;
+}
+.close-menu {
+  display: none;
+}
+.open {
+  display: none;
+}

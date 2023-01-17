@@ -1,0 +1,209 @@
+/***********HERO SECTION***************/
+
+.hero {
+  position: relative;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/class.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  &-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 2.6rem;
+    padding: 4.6rem 12rem;
+    width: 70%;
+    &--text {
+      font-size: $font-large;
+      color: $light-color;
+      line-height: 1.2;
+    }
+  }
+}
+
+/***********INVITE SECTION***************/
+.invite-section {
+  &-text {
+    font-size: $font-large;
+    color: $tertiary-color;
+    font-weight: 700;
+    text-align: center;
+  }
+  &-content {
+    background: linear-gradient(0deg, rgba(1, 1, 41, 0.8), rgba(1, 1, 41, 0.8)),
+      url(../images/science-lab.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.6rem 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-main {
+    width: 50%;
+    p {
+      font-size: $font-medium;
+      color: $light-color;
+      line-height: 1.2;
+    }
+  }
+  &-img {
+    img {
+      width: 80%;
+      height: 70%;
+    }
+  }
+  &-heading {
+    font-size: $font-large;
+    font-weight: 700;
+    color: $light-color;
+    line-height: 1.01;
+    margin-bottom: 1.8rem;
+  }
+}
+
+/***********GOALS SECTION***************/
+.goal-section {
+  padding: 3.6rem 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4.8rem;
+  &-card {
+    background-color: $secondary-color;
+    border-radius: 1.2rem;
+    width: 26rem;
+    height: 32rem;
+    box-shadow: 0 2rem 10rem $light-blue;
+    img {
+      width: 100%;
+    }
+  }
+  &-content {
+    color: $light-color;
+    padding: 1rem;
+  }
+}
+
+/***********NEWS SECTION***************/
+.news-section {
+  padding: 0.8rem 12rem;
+  &-heading {
+    position: relative;
+    font-size: $font-large;
+    font-weight: 700;
+    color: $secondary-color;
+    line-height: 1.01;
+    text-align: center;
+    margin-bottom: 5.4rem;
+    .grad-cap {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -3.2rem;
+    }
+    .right-H {
+      position: absolute;
+      right: 43%;
+      bottom: -2.4rem;
+    }
+    .left-H {
+      position: absolute;
+      left: 43%;
+      bottom: -2.4rem;
+    }
+  }
+  &-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 2.2rem;
+    justify-items: center;
+    .summer-sch {
+      grid-column: 1/2;
+      grid-row: 1/3;
+      background-color: $secondary-color;
+      width: 36rem;
+      &-content {
+        padding: 1rem;
+      }
+      &-text {
+        color: $light-color;
+        font-size: $font-small;
+        margin-bottom: 1.8rem;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    .summer-excur {
+      width: 38rem;
+      background-color: $secondary-color;
+      img {
+        width: 100%;
+      }
+      &-content {
+        padding: 1rem;
+      }
+      &-text {
+        color: $light-color;
+        font-size: $font-small;
+        margin-bottom: 1.8rem;
+      }
+    }
+    .admission-news {
+      background-color: $secondary-color;
+      width: 38rem;
+      img {
+        width: 100%;
+      }
+      &-content {
+        padding: 1rem;
+      }
+      &-text {
+        color: $light-color;
+        font-size: $font-small;
+        margin-bottom: 1.8rem;
+      }
+    }
+  }
+}
+
+/***********NEWSLETTER SECTION***************/
+.newsletter-section {
+  background-color: $secondary-color;
+  border-top: 0.4rem solid $primary-color;
+  border-bottom: 0.4rem solid $primary-color;
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.6rem 12rem;
+    background-color: $secondary-color;
+    border-top: 0.4rem solid $primary-color;
+    border-bottom: 0.4rem solid $primary-color;
+  }
+  &-text {
+    color: $light-color;
+  }
+}
+
+/***********TESTIMONIAL SECTION***************/
+.testimonials-section {
+  display: flex;
+  justify-content: center;
+  padding: 4.8rem 12rem;
+  &-container {
+    text-align: center;
+    color: $secondary-color;
+    width: 50%;
+  }
+  &-sub--heading {
+    font-size: $font-smaller;
+  }
+  &-text {
+    font-size: $font-small;
+    font-weight: 700;
+  }
+}

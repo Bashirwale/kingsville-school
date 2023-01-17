@@ -1,0 +1,38 @@
+.policies-section {
+  background: linear-gradient(
+      0deg,
+      rgba(52, 61, 255, 0.3),
+      rgba(52, 61, 255, 0.3)
+    ),
+    url(../../images/policies.png);
+  background-size: 100%;
+  height: 32rem;
+  width: 100%;
+}
+.policies-section-main {
+  .policies-section-content {
+    padding: 2.2rem 45rem;
+  }
+  &-box {
+    display: inline-block;
+    border: 1px solid $light-gray;
+    text-align: center;
+    padding: 1.2rem;
+    .policies-image {
+      height: 5rem;
+      width: 5rem;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .polices-btn {
+      display: inline-block;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 600;
+      background-color: $light-blue;
+      color: $secondary-color;
+    }
+  }
+}

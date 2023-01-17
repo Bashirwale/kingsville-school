@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: $light-color;
+  font-size: $font-small;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+  line-height: 1.7;
+  max-width: 144rem;
+  margin: 0 auto;
+  scroll-behavior: smooth;
+}
+.heading-primary {
+  font-size: $font-larger;
+  font-weight: 700;
+  line-height: 1.2;
+  color: $light-color;
+}
+.secondary-heading {
+  font-size: $font-large;
+  font-weight: 700;
+  line-height: 1.4;
+  color: $light-blue;
+}
+.heading-tertiary {
+  font-size: $font-medium;
+  font-weight: 700;
+  line-height: 1.2;
+  color: $light-color;
+}
+.bg-sec {
+  background-color: $secondary-color;
+}
+.color-dark-blue {
+  color: $secondary-color;
+}
+.text-red {
+  color: $color-red;
+  font-weight: 700;
+}
+.margin-b-16 {
+  margin-bottom: 1.6rem;
+}
+.text-align-center {
+  text-align: center;
+}
+.container {
+  padding: 2.2rem 12rem;
+}
